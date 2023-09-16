@@ -2,18 +2,17 @@ talents = float(input('enter the number of talents'))
 
 pounds = float(input('enter the number of pounds'))
 
-lots = float(input('enter the numeber of lots'))
+lots = float(input('enter the number of lots'))
 
-talent = talents * (20 * 32 * 13.3)
+talents = talents * (20 * 32 * 13.3)
 
-pound = pounds * (32 * 13.3)
+pounds = pounds * (32 * 13.3)
 
-lot = lots * 13.3
+lots = lots * 13.3
 
-kg = (talents + pounds + lots) / 1000
+kgs = int((talents + pounds + lots) / 1000)
 
-kgs = int(kg)
+grams = talents + pounds + lots - kgs * 1000
 
-grams = talents + pounds + lots - kg * 1000
+print(f'The weight in modern units is: \n{kgs} kgs and {grams:.2f} grams')
 
-print(f'The weight in modern units is: {kgs} kgs and {grams:.2f} grams')

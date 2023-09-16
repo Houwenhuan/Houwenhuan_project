@@ -1,6 +1,6 @@
 length = float(input('enter a length of the rectangle'))
 
-width = float(input('enter a length of the rectangle'))
+width = float(input('enter a width of the rectangle'))
 
 perimeter = (length + width) * 2
 
