@@ -15,4 +15,3 @@ kgs = int((talents + pounds + lots) / 1000)
 grams = talents + pounds + lots - kgs * 1000
 
 print(f'The weight in modern units is: \n{kgs} kgs and {grams:.2f} grams')
-
