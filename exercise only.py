@@ -57,3 +57,24 @@
 #     print(f'The year of  (year) + is a leap year')
 # else:
 #     print(f'The year of float{year:.2f}year is not a leap year')
+# for
+# total = 0
+# for i in range(1, 101):
+#     total = total + i
+# print(total)
+
+# while
+# print('Hello, I am a programme of average')
+# total = 0
+# count = 0
+# user_input = input('enter a number (after finish the enter,stop the programme with the letter q):')
+# while user_input != 'q':
+#     num = float(user_input)
+#     total = total + num
+#     count = count + 1
+#     user_input = input('enter a number (after finish the enter,stop the programme with the letter q):')
+# if count == 0:
+#     result = 0
+# else:
+#     result = total / count
+# print('The average you entered is' + str(result))
