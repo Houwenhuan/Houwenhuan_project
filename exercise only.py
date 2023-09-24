@@ -78,3 +78,44 @@
 # else:
 #     result = total / count
 # print('The average you entered is' + str(result))
+
+# year = int(input('enter a year: '))
+# if (year % 4 == 0 and year / 100 != 0) or (year / 400 == 0):
+#     print(f'the year of {year} is a leap year')
+# else:
+#     print(f'the year of {year} is not a leap year')
+
+
+# import random
+#
+# num1 = random.randint(1, 10)
+# while 1 <= num1 <= 4:
+#     print('too low')
+#     num1 = int(input('enter a number:'))
+#     num1 = num1 + 1
+#     while 6 < num1 <= 10:
+#         print('too high')
+#         num1 = int(input('enter a number:'))
+#         num1 = num1 + 1
+#         while num1 == 5:
+#             print('correct')
+
+# import random
+#
+# number = random.randint(1, 10)
+# while True:
+#     user = int(input("enter the number between 1 and 10: "))
+#     if user == number:
+#         print("Correct! You guessed the number in ", number)
+#     elif user < number:
+#         print("Too low. Try again.")
+#     else:
+#         print("Too high. Try again.")
+
+# number = inches * centimeters 2.54
+inches = float(input("enter a number:"))
+centi_1 = float(inches) * 2.45
+while inches > 0 and inches != 0:
+    inches = float(input("enter a number:"))
+    print(f'{inches} inches equals {centi_1} centimeters')
+    inches = inches + 1
